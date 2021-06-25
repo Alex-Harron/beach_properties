@@ -15,6 +15,7 @@ House.create([
     {name: 'House 2', description: 'This is House 2', img_url: 'https://static.onecms.io/wp-content/uploads/sites/24/2020/07/14/0a90eaf5-77f8-47f1-bf9b-ffff21198fc4.jpg'},
 ])
 Review.create([
-    {text: "this is a nice house", house_id: '1', user_id: '1'},
+    {text: "this is a nice house", house_id: House.all.sample.id, user_id: User.all.sample.id},
     {text: "This is not a nice house", house_id: '2', user_id: '1'}
 ])
+
