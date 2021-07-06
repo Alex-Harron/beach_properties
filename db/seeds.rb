@@ -16,6 +16,5 @@ House.create([
 ])
 Review.create([
     {text: "this is a nice house", house_id: House.all.sample.id, user_id: User.all.sample.id},
-    {text: "This is not a nice house", house_id: '2', user_id: '1'}
+    {text: "This is not a nice house", house_id: House.all.sample.id, user_id: User.all.sample.id}
 ])
-
