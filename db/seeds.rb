@@ -13,8 +13,10 @@ User.create([
 House.create([
     {name: 'House 1', description:"This is House 1", img_url: 'https://www.surforsound.com/media/3340016/surf-or-sound-realty-salty-dog-beach-house-869-exterior.jpg'},
     {name: 'House 2', description: 'This is House 2', img_url: 'https://static.onecms.io/wp-content/uploads/sites/24/2020/07/14/0a90eaf5-77f8-47f1-bf9b-ffff21198fc4.jpg'},
+    {name: 'House 3', description: 'This is House 3', img_url: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/91/a9/4e/victoria-beach-house.jpg?w=900&h=-1&s=1'},
 ])
 Review.create([
     {text: "this is a nice house", house_id: House.all.sample.id, user_id: User.all.sample.id},
     {text: "This is not a nice house", house_id: House.all.sample.id, user_id: User.all.sample.id}
 ])
+
