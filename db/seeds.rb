@@ -16,13 +16,12 @@ House.create([
     {name: 'Island Getaway', description: 'Convallis a cras semper auctor neque vitae tempus. Diam maecenas ultricies mi eget mauris pharetra. ', img_url: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/91/a9/4e/victoria-beach-house.jpg?w=900&h=-1&s=1'},
 ])
 Review.create([
-    {text: "This is a nice house", house_id: House.all.sample.id, user_id: 9},
-    {text: "This was a wonderful house!", house_id: House.all.sample.id, user_id: 9},
-    {text: "Could Have been better in my opinion.", house_id: House.all.sample.id, user_id: 9},
-    {text: "Great House for my vacation!!", house_id: House.all.sample.id, user_id: 9},
-    {text: "What more could you want from a beach house? It's Perfect!", house_id: House.all.sample.id, user_id: 9},
-    {text: "What an amazing vacation!", house_id: House.all.sample.id, user_id: 9}
+    {text: "This is a nice house", house_id: House.all.sample.id, user_id: 1},
+    {text: "This was a wonderful house!", house_id: House.all.sample.id, user_id: 1},
+    {text: "Could Have been better in my opinion.", house_id: House.all.sample.id, user_id: 1},
+    {text: "Great House for my vacation!!", house_id: House.all.sample.id, user_id: 1},
+    {text: "What more could you want from a beach house? It's Perfect!", house_id: House.all.sample.id, user_id: 1},
+    {text: "What an amazing vacation!", house_id: House.all.sample.id, user_id: 1}
 
 ])
-
 
