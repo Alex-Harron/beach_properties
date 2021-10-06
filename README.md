@@ -1,24 +1,18 @@
-# README
+<h2>Prerequisites</h2>
+This is an api that was built to be used with this frontend application: https://github.com/Alex-Harron/beach_properties_frontend. This web application was mainly written with the Ruby language and uses several gems. Below is an installation guide to help you install the necessary gems.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h2>Installing</h2>
 
-Things you may want to cover:
+Clone the code of this repo. In your terminal:
 
-* Ruby version
+<code>git clone "github-repo-code"</code>
 
-* System dependencies
+Go to the first level directory that contains all of this repo's folders:
 
-* Configuration
+<code>bundle install (this installs any required gems)</code>
 
-* Database creation
+In your terminal start the server: 
 
-* Database initialization
+<code>rails s</code>
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Lastly, vist http://localhost:3000/. 
